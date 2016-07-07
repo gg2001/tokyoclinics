@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <div class="head"><!--<p>{{> loginButtons}}</p>--><center><h1 class="monospace">Tokyo Clinics</h1></center><br></div>
+  <div class="head"><!--<p>{{> loginButtons}}</p>--><center><h1 class="monospace" meta http-equiv="refresh" content="1">Tokyo Clinics</h1></center><br></div>
   {{> list}}
 </body>
 
@@ -15,9 +15,9 @@
         <a target="_blank" href="http://sv01.e-junban.com/tonouchi/tonouchi1/waiting/">Tonouchi Otolaryngology Clinic</a><br>
         <a target="_blank" href="http://paa.jp/t/181201/">Yuki Jibika</a><br>
       -->
-    {{#each clinic}}
+      {{#each clinic}}
         <a target="_blank" href="{{statuspage}}">{{name}}</a><br>
-    {{/each}}
+      {{/each}}
     </center>
   </div>
 </template>

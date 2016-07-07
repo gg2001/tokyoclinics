@@ -1,5 +1,5 @@
 body {
-	background-color: #EAE4CC;
+	/*vbackground-color: #EAE4CC; */
 }
 h1 {
 	margin: 0;
@@ -10,8 +10,12 @@ p {
     margin: 0;
     padding: 0;
 }
+a{
+	color: #23BCD7;
+}
 a:hover {
-	background-color: yellow;
+	color: white;
+	background-color: #23BCD7;
 }
 .head {
 
