@@ -130,13 +130,14 @@
 
 <template name="clinicPage">
   <center>
-  <h2 class="monospace" id="theClinic">{{name}}</h2>
+  <h1 class="monospace title" id="theClinic">{{name}}</h1>
 </center>
 <center>
   <div class="monospace">
 
-<a target="_blank" href="{{statuspage}}">Website</a>
-  </div>
+<a target="_blank" href="{{statuspage}}" class="website">Website</a>
+  </div><br>
+  <hr /><br>
   <form>
 <input type="submit" value="Remove">
 </form>
