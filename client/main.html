@@ -33,8 +33,12 @@
         <li><a href="../form">Add Clinic</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        {{#if currentUser}}
+        <li><a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out - {{currentUser.emails.[0].address}}</a></li>
+        {{else}}
         <li><a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a></li>
         <li><a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        {{/if}}
       </ul>
     </div>
   </div>
@@ -66,11 +70,26 @@
 </template>
 
 <template name="register">
+  <center>
   <h2>Register</h2>
+  <form class="register">
+        <p>Email: <input type="email" name="email"></p>
+        <p>Password: <input type="password" name="password"></p>
+        <p><input type="submit" value="Register"></p>
+    </form>
+  </center>
 </template>
 
 <template name="login">
+  <center>
   <h2>Login</h2>
+  <form class="login">
+        <p>Email: <input type="email" name="email"></p>
+        <p>Password: <input type="password" name="password"></p>
+        <p><input type="submit" value="Login"></p>
+    </form><br>
+    <p id="err"></p>
+  </center>
 </template>
 
 <template name="form">
