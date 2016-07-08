@@ -13,7 +13,7 @@ p {
 a{
 	color: #23BCD7;
 }
-a:hover {
+.listLink:hover {
 	color: white;
 	background-color: #23BCD7;
 }
@@ -29,4 +29,8 @@ a:hover {
 }
 .list-items {
 
+}
+.title {
+	font-size: 50px;
+	color: black;
 }

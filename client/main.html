@@ -1,11 +1,49 @@
+
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <title>Clinics</title>
 </head>
-
+<!--
 <body>
-  <div class="head"><!--<p>{{> loginButtons}}</p>--><center><h1 class="monospace" meta http-equiv="refresh" content="1">Tokyo Clinics</h1></center><br></div>
+  <div class="head"><center><h1 class="monospace" meta http-equiv="refresh" content="1">Tokyo Clinics</h1></center><br></div>
   {{> list}}
 </body>
+-->
+<template name="main">
+    <center>
+      <!--<div class="navbar"><a href="form">Add Clinic</a>   <a href="login">Login</a>   <a href="register">Register</a></div>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse monospace">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="../">Tokyo Clinics</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <!--<li class="active"><a href="#">Home</a></li>-->
+        <li><a href="../form">Add Clinic</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+        <li><a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <!--<div class="head"><a href="/" class="monospace title">Tokyo Clinics</a><br></div>-->
+    </center>
+    {{> yield}}
+</template>
 
 <template name="list">
   <div class="list-items">
@@ -14,10 +52,31 @@
         <a target="_blank" href="http://www.neconome.com/S0K01.html?bkn_cd=110248">Family Clinic</a><br>
         <a target="_blank" href="http://sv01.e-junban.com/tonouchi/tonouchi1/waiting/">Tonouchi Otolaryngology Clinic</a><br>
         <a target="_blank" href="http://paa.jp/t/181201/">Yuki Jibika</a><br>
+
+        Clinics.insert({
+          name: "Tonouchi Otolaryngology",
+          statuspage: "http://sv01.e-junban.com/tonouchi/tonouchi1/waiting/"
+        });
       -->
       {{#each clinic}}
-        <a target="_blank" href="{{statuspage}}">{{name}}</a><br>
+        <a class="listLink" href="/clinic/{{_id}}">{{name}}</a><br>
       {{/each}}
     </center>
   </div>
+</template>
+
+<template name="register">
+  <h2>Register</h2>
+</template>
+
+<template name="login">
+  <h2>Login</h2>
+</template>
+
+<template name="form">
+  <h2>Add a new clinic</h2>
+</template>
+
+<template name="clinicPage">
+  <h2>{{name}}</h2>
 </template>
