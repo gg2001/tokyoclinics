@@ -30,7 +30,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <!--<li class="active"><a href="#">Home</a></li>-->
+        {{#if currentUser}}
         <li><a href="../form">Add Clinic</a></li>
+        {{/if}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if currentUser}}
@@ -63,39 +65,76 @@
         });
       -->
       {{#each clinic}}
-        <a class="listLink" href="/clinic/{{_id}}">{{name}}</a><br>
+        <a class="listLink" href="/clinic/{{_id}}">- {{name}}</a><br>
       {{/each}}
     </center>
   </div>
 </template>
 
-<template name="register">
+<template name="register" class="monospace">
   <center>
-  <h2>Register</h2>
-  <form class="register">
+  <h2 class="monospace">Register</h2>
+  {{#if currentUser}}
+  <p class="monospace">You are already logged in</p>
+  {{else}}
+  <form class="register monospace">
         <p>Email: <input type="email" name="email"></p><br>
         <p>Password: <input type="password" name="password"></p><br>
         <p><input type="submit" value="Register"></p>
     </form>
+    {{/if}}
   </center>
 </template>
 
-<template name="login">
+<template name="login" class="monospace">
   <center>
-  <h2>Login</h2>
-  <form class="login">
+  <h2 class="monospace">Login</h2>
+  {{#if currentUser}}
+  <p class="monospace">You are already logged in</p>
+  {{else}}
+  <form class="login monospace">
         <p>Email: <input type="email" name="email"></p><br>
         <p>Password: <input type="password" name="password"></p><br>
         <p><input type="submit" value="Login"></p>
     </form><br>
     <p id="err"></p>
+  {{/if}}
   </center>
 </template>
 
 <template name="form">
-  <h2>Add a new clinic</h2>
+<center>
+  <h2 class="monospace">Add a new clinic</h2>
+</center>
+    <center>
+  <div class="alignForm monospace">
+  <form>
+        {{#if currentUser}}
+        <p>Clinic Name: 
+        <input type="text" name="name"></p><br>
+
+        <p>Clinic Website: 
+        <input type="text" name="statuspage"></p><br>
+
+        <input type="submit" value="Submit">
+        {{else}}
+        <p>Please login first</p>
+        {{/if}}
+  </form>
+</div>
+</center>
+
 </template>
 
 <template name="clinicPage">
-  <h2>{{name}}</h2>
+  <center>
+  <h2 class="monospace">{{name}}</h2>
+</center>
+<center>
+  <div class="monospace">
+
+<a target="_blank" href="{{statuspage}}">Website</a>
+
+  </div>
+</center>
 </template>

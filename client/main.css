@@ -34,3 +34,6 @@ a{
 	font-size: 50px;
 	color: black;
 }
+.alignForm {
+	float: center;
+}
