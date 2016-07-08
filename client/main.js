@@ -72,3 +72,17 @@ if (result == false) {
     }
 
 });
+Template.clinicPage.events({
+	'submit form': function(){
+		Router.go('/');
+		var url = window.location.href
+		var mongoID = url.substring(url.length - 17);
+console.log(mongoID);
+		Clinics.remove(mongoID);
+		Router.go('/');
+		var currentClinic = document.getElementById("theClinic").innerHTML;
+		if (currentClinic == "") {
+			Router.go('/');
+		}
+	}
+});
