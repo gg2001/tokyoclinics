@@ -26,7 +26,7 @@ Template.list.events({
 
 Template.register.events({
     'submit form': function(){
-        event.preventDefault();
+       	event.preventDefault();
         var email = $('[name=email]').val();
         var password = $('[name=password]').val();
         Accounts.createUser({
@@ -51,4 +51,24 @@ Template.login.events({
     }
 		});
     }
+});
+
+Template.form.events({
+        'submit form': function(){
+        event.preventDefault();
+        var clinicNameVar = event.target.name.value;
+        var clinicStatuspageVar = event.target.statuspage.value;
+
+var result = clinicStatuspageVar.indexOf("://") > -1;
+if (result == false) {
+	clinicStatuspageVar = "http://" + clinicStatuspageVar;
+}
+
+        Clinics.insert({
+        name: clinicNameVar,
+        statuspage: clinicStatuspageVar
+    });
+        Router.go('/');
+    }
+
 });
