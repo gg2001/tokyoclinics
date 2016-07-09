@@ -26,3 +26,6 @@ fastclick
 mobile-status-bar
 autopublish
 insecure
+accounts-google
+accounts-twitter
+accounts-facebook
