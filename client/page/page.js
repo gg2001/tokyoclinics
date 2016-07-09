@@ -1,9 +1,9 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import './clinicPage.html';
+import './page.html';
 import '../../imports/ui/style.css'
 
-Template.clinicPage.events({
+Template.page.events({
 	'submit form': function(){
 		Router.go('/');
 		var url = window.location.href
@@ -17,11 +17,7 @@ Template.clinicPage.events({
 	}
 });
 
-Template.clinicPage.rendered = function() {
+Template.page.rendered = function() {
     // if(!this._rendered) { this._rendered = true }
     document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
-}
-
-Template.list.rendered = function() {
-	document.getElementById("backButton").innerHTML = '';
 }
