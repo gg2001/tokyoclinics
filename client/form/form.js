@@ -12,10 +12,7 @@ Template.form.events({
         if (result == false) {
         	clinicStatuspageVar = "http://" + clinicStatuspageVar;
         }
-        Clinics.insert({
-            name: clinicNameVar,
-            statuspage: clinicStatuspageVar
-        });
+        Meteor.call('clinicForm', clinicNameVar, clinicStatuspageVar)
         Router.go('/');
     }
 });
