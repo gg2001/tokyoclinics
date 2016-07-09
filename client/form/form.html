@@ -1,0 +1,23 @@
+<template name="form">
+<center>
+  <h2 class="monospace">Add a new clinic</h2>
+</center>
+    <center>
+  <div class="alignForm monospace">
+  <form>
+        {{#if currentUser}}
+        <p>Clinic Name: 
+        <input type="text" name="name"></p><br>
+
+        <p>Clinic Website: 
+        <input type="text" name="statuspage"></p><br>
+
+        <input type="submit" value="Submit">
+        {{else}}
+        <p>Please login first</p>
+        {{/if}}
+  </form>
+</div>
+</center>
+
+</template>

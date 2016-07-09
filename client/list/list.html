@@ -1,0 +1,19 @@
+<template name="list">
+  <div class="list-items">
+    <center class="monospace list">
+      <!-- Sample Data
+        <a target="_blank" href="http://www.neconome.com/S0K01.html?bkn_cd=110248">Family Clinic</a><br>
+        <a target="_blank" href="http://sv01.e-junban.com/tonouchi/tonouchi1/waiting/">Tonouchi Otolaryngology Clinic</a><br>
+        <a target="_blank" href="http://paa.jp/t/181201/">Yuki Jibika</a><br>
+
+        Clinics.insert({
+          name: "Tonouchi Otolaryngology",
+          statuspage: "http://sv01.e-junban.com/tonouchi/tonouchi1/waiting/"
+        });
+      -->
+      {{#each clinic}}
+        <a class="listLink" href="/clinic/{{_id}}"><div class="theLink">{{name}}<br><hr /></div></a>
+      {{/each}}
+    </center>
+  </div>
+</template>
