@@ -29,3 +29,4 @@ insecure
 accounts-google
 accounts-twitter
 accounts-facebook
+mdg:reload-on-resume

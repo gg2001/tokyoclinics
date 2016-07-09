@@ -58,6 +58,7 @@ less@2.6.4
 livedata@1.0.18
 localstorage@1.0.11
 logging@1.0.14
+mdg:reload-on-resume@1.0.4
 meteor@1.1.16
 meteor-base@1.0.4
 meteorhacks:fast-render@2.14.0
