@@ -8,7 +8,6 @@ Template.clinicPage.events({
 		Router.go('/');
 		var url = window.location.href
 		var mongoID = url.substring(url.length - 17);
-console.log(mongoID);
 		Clinics.remove(mongoID);
 		Router.go('/');
 		var currentClinic = document.getElementById("theClinic").innerHTML;
@@ -19,13 +18,10 @@ console.log(mongoID);
 });
 
 Template.clinicPage.rendered = function() {
-    if(!this._rendered) {
-      this._rendered = true;
-      console.log('Template onLoad');
-    }
-    document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>'
+    // if(!this._rendered) { this._rendered = true }
+    document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
 }
 
 Template.list.rendered = function() {
-	document.getElementById("backButton").innerHTML = ''
+	document.getElementById("backButton").innerHTML = '';
 }

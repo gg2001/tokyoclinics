@@ -5,7 +5,7 @@ import '../../imports/ui/style.css'
 
 Template.register.events({
     'submit form': function(){
-      	event.preventDefault();
+        event.preventDefault();
         var email = $('[name=email]').val();
         var password = $('[name=password]').val();
         Accounts.createUser({

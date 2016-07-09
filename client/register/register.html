@@ -1,13 +1,12 @@
 <template name="register" class="monospace">
-  <center>
-  <h2 class="monospace">Register</h2>
-  {{#if currentUser}}
-  <p class="monospace">You are already logged in</p>
-  {{else}}
-  <form class="register monospace">
-        <p>Email: <input type="email" name="email"></p><br>
-        <p>Password: <input type="password" name="password"></p><br>
-        <p><input type="submit" value="Register"></p>
+  <center><h2 class="monospace">Register</h2>
+    {{#if currentUser}}
+    <p class="monospace">You are already logged in</p>
+    {{else}}
+    <form class="register monospace">
+      <p>Email: <input type="email" name="email"></p><br>
+      <p>Password: <input type="password" name="password"></p><br>
+      <p><input type="submit" value="Register"></p>
     </form>
     <p class="monospace" id="err1"></p>
     {{/if}}
