@@ -10,3 +10,4 @@ Template.main.events({
         Router.go('/');
     }
 });
+
