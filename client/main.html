@@ -27,10 +27,10 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">{{> loginButtons align="right"}}</a></li>
           {{#if currentUser}}
-          <li><!--<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>--></li>
+          <li id="cordovaLogout"><!--<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>--></li>
           {{else}}
-          <li><!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>--></li>
-          <li><!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>--></li>
+          <li id="cordovaRegister"><!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>--></li>
+          <li id="cordovaLogin"><!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>--></li>
           {{/if}}
         </ul>
       </div>
