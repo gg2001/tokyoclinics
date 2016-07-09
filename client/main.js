@@ -3,6 +3,19 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './main.html';
 import '../imports/ui/style.css'
 
+Template.main.rendered = function() {
+	if(Meteor.isCordova){
+		document.getElementById("cordovaLogout").innerHTML = '<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>';
+		document.getElementById("cordovaRegister").innerHTML = '<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>';
+		document.getElementById("cordovaLogin").innerHTML = '<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>';
+		alert("Test");
+	} else {
+		document.getElementById("cordovaLogout").innerHTML = '';
+		document.getElementById("cordovaRegister").innerHTML = '';
+		document.getElementById("cordovaLogin").innerHTML = '';
+	}
+}
+
 Template.main.events({
 	'click .logout': function(event){
         event.preventDefault();
@@ -10,14 +23,3 @@ Template.main.events({
         Router.go('/');
     }
 });
-
-if(Meteor.isCordova){
-	document.getElementById("cordovaLogout").innerHTML = '<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>';
-	document.getElementById("cordovaRegister").innerHTML = '<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>';
-	document.getElementById("cordovaLogin").innerHTML = '<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>';
-	alert("Test");
-} else {
-	document.getElementById("cordovaLogout").innerHTML = '';
-	document.getElementById("cordovaRegister").innerHTML = '';
-	document.getElementById("cordovaLogin").innerHTML = '';
-}
