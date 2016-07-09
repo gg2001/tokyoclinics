@@ -1,9 +1,10 @@
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <title>Clinics</title>
+
 </head>
 <!--
 <body>
@@ -31,8 +32,9 @@
       <ul class="nav navbar-nav">
         <!--<li class="active"><a href="#">Home</a></li>-->
         {{#if currentUser}}
-        <li><a href="../form">Add Clinic</a></li>
+        <li><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
         {{/if}}
+        <li id="backButton"></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if currentUser}}
@@ -65,8 +67,7 @@
         });
       -->
       {{#each clinic}}
-        <a class="listLink" href="/clinic/{{_id}}">{{name}}</a><br>
-        <hr />
+        <a class="listLink" href="/clinic/{{_id}}"><div class="theLink">{{name}}<br><hr /></div></a>
       {{/each}}
     </center>
   </div>
@@ -129,17 +130,21 @@
 </template>
 
 <template name="clinicPage">
+
   <center>
+
   <h1 class="monospace title" id="theClinic">{{name}}</h1>
-</center>
+
+</center><br><hr /><br>
 <center>
   <div class="monospace">
-
-<a target="_blank" href="{{statuspage}}" class="website">Website</a>
+<a target="_blank" href="{{statuspage}}" class="website">{{statuspage}}</a>
   </div><br>
   <hr /><br>
   <form>
+    {{#if currentUser}}
 <input type="submit" value="Remove">
+{{/if}}
 </form>
 </center>
 </template>

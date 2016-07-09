@@ -14,7 +14,6 @@ a{
 	color: #23BCD7;
 }
 .listLink:hover {
-	color: white;
 	background-color: #23BCD7;
 }
 .head {
@@ -40,4 +39,6 @@ a{
 .website {
 	font-size: 30px;
 }
-
+.pageBack {
+	font-size: 10px;
+}
