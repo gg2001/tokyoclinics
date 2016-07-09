@@ -24,11 +24,8 @@ force-ssl
 meteorhacks:fast-render
 fastclick
 mobile-status-bar
-autopublish
-insecure
 accounts-google
 accounts-twitter
 accounts-facebook
 mdg:reload-on-resume
-spiderable
-manuelschoebel:ms-seo
+autopublish

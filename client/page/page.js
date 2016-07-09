@@ -8,7 +8,7 @@ Template.page.events({
 		Router.go('/');
 		var url = window.location.href
 		var mongoID = url.substring(url.length - 17);
-		Clinics.remove(mongoID);
+		Meteor.call('clinicRemove', mongoID)
 		Router.go('/');
 		var currentClinic = document.getElementById("theClinic").innerHTML;
 		if (currentClinic == "") {

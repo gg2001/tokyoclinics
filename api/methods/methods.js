@@ -6,3 +6,9 @@ Meteor.methods({
         });
     }
 });
+
+Meteor.methods({
+    'clinicRemove': function(mongoID){
+    	Clinics.remove(mongoID);
+    }
+});
