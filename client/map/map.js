@@ -3,8 +3,10 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './map.html';
 import '../../imports/ui/style.css'
 
-Meteor.startup(function() {  
-  GoogleMaps.load();
+Template.map.onRendered(function() {
+  GoogleMaps.load({
+    key: "AIzaSyBWkWU-HMefXevQiEXuzpqG2BcOg3xM0vc"
+  });
 });
 
 Template.map.helpers({  
