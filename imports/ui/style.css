@@ -42,3 +42,22 @@ a{
 .pageBack {
 	font-size: 10px;
 }
+#starFavorite {
+    margin-right: 10px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+.container {
+	position: relative 
+}
+.star {
+	position: absolute; 
+   	right: 0px; 
+   	top: -70px
+}
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+}

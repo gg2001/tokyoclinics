@@ -7,6 +7,7 @@ Template.list.helpers({
 	'clinic': function(){
         return Clinics.find();
     }
+
 });
 
 Template.list.rendered = function() {

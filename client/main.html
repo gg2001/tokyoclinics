@@ -8,6 +8,7 @@
 <template name="main">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <div class="mainTemplate">
   <center><nav class="navbar navbar-inverse monospace">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -28,7 +29,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">{{> loginButtons align="right"}}</a></li>
           {{#if currentUser}}
-          <li id="cordovaLogout"></li><!--<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>-->
+          <li></li><!--<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>-->
           {{else}}
           <li id="cordovaRegister"></li><!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>-->
           <li id="cordovaLogin"></li><!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
@@ -37,6 +38,7 @@
       </div>
     </div>
   </nav></center>
+  </div>
 
   {{> yield}}
 
