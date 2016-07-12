@@ -8,11 +8,13 @@ Template.form.events({
         event.preventDefault();
         var clinicNameVar = event.target.name.value;
         var clinicStatuspageVar = event.target.statuspage.value;
+        var latitudeVar = event.target.latitude.value;
+        var longitudeVar = event.target.longitude.value;
         var result = clinicStatuspageVar.indexOf("://") > -1;
         if (result == false) {
         	clinicStatuspageVar = "http://" + clinicStatuspageVar;
         }
-        Meteor.call('clinicForm', clinicNameVar, clinicStatuspageVar)
+        Meteor.call('clinicForm', clinicNameVar, clinicStatuspageVar, latitudeVar, longitudeVar)
         Router.go('/');
     }
 });
