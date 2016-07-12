@@ -1,12 +1,14 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import './map.html';
-import '../../imports/ui/style.css'
+import '../../imports/ui/style.css';
 
 Template.map.onRendered(function() {
   GoogleMaps.load({
     key: "AIzaSyBWkWU-HMefXevQiEXuzpqG2BcOg3xM0vc"
   });
+  document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
+
 });
 
 Template.map.helpers({  
@@ -25,3 +27,4 @@ Template.map.onCreated(function() {
      console.log("I'm ready!");
   });
 });
+

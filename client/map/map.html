@@ -1,5 +1,7 @@
-<template name="map">
-	<div class="map-container">
+<template name="map" class="mapView">
+	<center><h2 class="monospace" id="theClinic">Map</h2></center><hr />
+	<div class="map-container" if="theMap">
     {{> googleMap name="map" options=mapOptions}}
-  </div>
+  	</div>
+
 </template>

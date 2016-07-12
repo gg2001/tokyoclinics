@@ -21,10 +21,13 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
+                    <li id="backButton"></li>
+                    <li><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
           {{#if currentUser}}
-          <li><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
+                    <li><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
           {{/if}}
-          <li id="backButton"></li>
+
+
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">{{> loginButtons align="right"}}</a></li>
