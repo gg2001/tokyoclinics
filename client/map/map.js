@@ -25,8 +25,6 @@ Template.map.helpers({
 Template.map.onCreated(function() {  
   GoogleMaps.ready('map', function(map) {
      
-
-
     });
 });
 

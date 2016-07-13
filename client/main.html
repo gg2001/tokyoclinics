@@ -2,12 +2,12 @@
   <title>Clinics</title>
   <meta name="fragment" content="!">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../imports/ui/bootstrap.min.css">
 </head>
 
 <template name="main">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="../imports/ui/jquery.min.js"></script>
+  <script src="../imports/ui/bootstrap.min.js"></script>
   <div class="mainTemplate">
   <center><nav class="navbar navbar-inverse monospace">
     <div class="container-fluid">
@@ -21,22 +21,19 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-                    <li id="backButton"></li>
-                    <li><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li id="backButton"></li>
+          
           {{#if currentUser}}
-                    <li><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
+          <li id="cordovaMapin"><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li id="cordovaClinic"><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
+          {{else}}
+          <li id="cordovaMapout"><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>-->
+          <!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
           {{/if}}
-
-
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">{{> loginButtons align="right"}}</a></li>
-          {{#if currentUser}}
-          <li></li><!--<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>-->
-          {{else}}
-          <li id="cordovaRegister"></li><!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>-->
-          <li id="cordovaLogin"></li><!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
-          {{/if}}
+          <li id="loginButtons-remove"><a href="#">{{> loginButtons align="right"}}</a></li>
         </ul>
       </div>
     </div>

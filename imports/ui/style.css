@@ -10,7 +10,7 @@ p {
     margin: 0;
     padding: 0;
 }
-a{
+a {
 	color: #23BCD7;
 }
 .listLink:hover {
@@ -18,6 +18,9 @@ a{
 }
 .head {
 
+}
+.listLink {
+	color: #23BCD7;
 }
 .monospace {
 	font-family: monospace;
@@ -57,9 +60,8 @@ a{
    	top: -70px
 }
 .map-container {
-
+	/*float: right;
+	width: 50%;*/
   max-width: 100%;
   height: calc(100vh - 150px);
-
-
 }

@@ -14,6 +14,9 @@ Template.login.events({
                 document.getElementById("err").innerHTML = "Incorrect email or password";
             } else {
                 Router.go('/');
+                location.reload();
+                location.reload();
+                location.reload();
             }
         });
     }

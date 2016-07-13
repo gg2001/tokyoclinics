@@ -13,5 +13,7 @@ Template.register.events({
             password: password
         });
         Router.go('/');
+        location.reload();
+
     }
 });
