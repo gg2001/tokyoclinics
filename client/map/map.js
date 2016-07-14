@@ -7,7 +7,7 @@ Template.map.onRendered(function() {
   GoogleMaps.load({
     key: "AIzaSyBWkWU-HMefXevQiEXuzpqG2BcOg3xM0vc"
   });
-  document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
+  //document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
 
 });
 

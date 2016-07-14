@@ -12,7 +12,7 @@
   <center><nav class="navbar navbar-inverse monospace">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="mainButton">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span> 
@@ -21,13 +21,13 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li id="backButton"></li>
+          <!--<li id="backButton"></li>-->
           
           {{#if currentUser}}
-          <li id="cordovaMapin"><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
-          <li id="cordovaClinic"><a href="../form"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
+          <li id="cordovaMapin"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li id="cordovaClinic"><a href="../form" class="mainLinks"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
           {{else}}
-          <li id="cordovaMapout"><a href="../map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li id="cordovaMapout"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
           <!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>-->
           <!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
           {{/if}}
