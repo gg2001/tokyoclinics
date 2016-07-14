@@ -17,3 +17,7 @@ Template.register.events({
 
     }
 });
+
+Template.register.onRendered(function(){
+
+});

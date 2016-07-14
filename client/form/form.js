@@ -3,6 +3,10 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './form.html';
 import '../../imports/ui/style.css'
 
+Template.form.onRendered(function(){
+document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Home</a>';
+});
+
 Template.form.events({
     'submit form': function(){
         event.preventDefault();

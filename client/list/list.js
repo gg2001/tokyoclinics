@@ -43,6 +43,8 @@ Template.list.onRendered(function(){
 	$('.mainLinks').click(function(e){
     	document.getElementById("mainButton").click();
 	});
+
+
 	}
 
 
