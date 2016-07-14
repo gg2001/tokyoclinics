@@ -6,6 +6,11 @@ import '../../imports/ui/style.css'
 Template.login.onRendered(function(){
 
 document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
+
+if (!Meteor.isCordova){
+    $(".loginTemplate").empty();
+    document.getElementById("unauthorized").innerHTML = 'You are unauthorized';
+}
 });
 
 Template.login.events({

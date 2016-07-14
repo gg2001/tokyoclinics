@@ -1,6 +1,7 @@
 <template name="login" class="monospace">
   <div class="listTemplate">
   <center><h2 class="monospace">Login</h2>
+    <div class="loginTemplate">
     {{#if currentUser}}
     <p class="monospace">You are already logged in</p>
     {{else}}
@@ -11,6 +12,8 @@
     </form><br>
     <p id="err" class="monospace"></p>
     {{/if}}
+    </div>
+    <p class="monospace" id="unauthorized"></p>
   </center>
   </div>
 </template>

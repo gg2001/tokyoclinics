@@ -1,4 +1,4 @@
-<template name="page">
+<template name="edit">
 	<div class="pageTemplate">
   	<center><h1 class="monospace title" id="theClinic">{{name}}</h1></center><br><hr /><br>
 		<center><div class="monospace">
@@ -6,7 +6,7 @@
   		</div><br><hr /><br>
   		<form>
     		{{#if currentUser}}
-			<button class="editButton"><a href="../edit/{{_id}}">Edit</a></button><input type="submit" value="Remove">
+			<input type="submit" value="Remove">
 			{{/if}}
 		</form></center>
 	</div>
