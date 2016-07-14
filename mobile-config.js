@@ -8,5 +8,7 @@ App.info({
   version: '1.0.0'
 });
 
-App.accessRule('http://*');
-App.accessRule('https://*');
+// App.accessRule('http://*');
+// App.accessRule('https://*');
+App.accessRule('http://*', { type: 'navigation' } );
+App.accessRule('https://*', { type: 'navigation' } );

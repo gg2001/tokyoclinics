@@ -23,4 +23,8 @@ Template.page.onRendered(function(){
     if (document.getElementById("theClinic").innerHTML == '') {
     	Router.go('/');
     }
+
+    if (!Meteor.isCordova) {
+    	document.getElementById("cordovaSite").removeAttribute("onclick");
+    }
 });
