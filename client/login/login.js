@@ -5,7 +5,7 @@ import '../../imports/ui/style.css'
 
 Template.login.onRendered(function(){
 
-document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Home</a>';
+document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
 });
 
 Template.login.events({
