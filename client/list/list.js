@@ -40,7 +40,6 @@ Template.list.onRendered(function(){
 		}
 	}
 		document.getElementById("loginButtons-remove").innerHTML = '';
-		//document.getElementById("backButton").remove();
 	$('.mainLinks').click(function(e){
     	document.getElementById("mainButton").click();
 	});

@@ -19,7 +19,7 @@ Template.page.events({
 
 Template.page.onRendered(function(){
     // if(!this._rendered) { this._rendered = true }
-    //document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
+    document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left"></span> Back</a>';
     if (document.getElementById("theClinic").innerHTML == '') {
     	Router.go('/');
     }
