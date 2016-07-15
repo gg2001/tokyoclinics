@@ -52,7 +52,7 @@ Navigate to [http://localhost:3000/](http://localhost:3000/)
 
 We are 3 camels based in Tokyo trying to get into a tent.
 
-## License
+## [License](https://github.com/gg2001/Status/blob/master/LICENSE.txt)
 
 [MIT License](https://opensource.org/licenses/MIT) <br>
 Copyright (c) 2016 Gautham Elango
