@@ -48,6 +48,9 @@ Template.list.onRendered(function(){
 	}
 
 
+  
+
+
 	/*
 	window.onload = function(){
 		document.getElementById("cordovaLogout").innerHTML = '<a href="#" class="logout"><span class="glyphicon glyphicon-log-in"></span> Log out {{currentUser.emails.[0].address}}{{currentUser.services.google.email}}{{currentUser.services.facebook.email}}{{services.twitter.screenName}}</a>';

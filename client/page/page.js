@@ -5,6 +5,8 @@ import '../../imports/ui/style.css'
 
 Template.page.events({
 	'submit form': function(){
+		var confirmation = confirm("Are you sure you want to remove this clinic?");
+		if (confirmation == true) {
 		Router.go('/');
 		var url = window.location.href
 		var mongoID = url.substring(url.length - 17);
@@ -14,6 +16,9 @@ Template.page.events({
 		if (currentClinic == "") {
 			Router.go('/');
 		}
+	} else {
+		
+	}
 	}
 
 });

@@ -23,3 +23,12 @@ Meteor.methods({
 		})
 	}
 });
+
+Meteor.methods({
+    'updateTest': function(){
+            Clinics.update({_id:"NXddnvM6uqYE2gAeT"},
+                   {$set: {name:"Test3"}},
+                   {multi: true}
+    );
+    }
+})

@@ -18,7 +18,7 @@ Template.form.events({
         if (result == false) {
         	clinicStatuspageVar = "http://" + clinicStatuspageVar;
         }
-        Meteor.call('clinicForm', clinicNameVar, clinicStatuspageVar, latitudeVar, longitudeVar)
+        Meteor.call('clinicForm', clinicNameVar, clinicStatuspageVar, latitudeVar, longitudeVar);
         Router.go('/');
     }
 });

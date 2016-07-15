@@ -5,6 +5,7 @@ import '../../imports/ui/style.css'
 
 Template.edit.events({
 	'submit form': function(){
+		/*
 		Router.go('/');
 		var url = window.location.href
 		var mongoID = url.substring(url.length - 17);
@@ -14,6 +15,8 @@ Template.edit.events({
 		if (currentClinic == "") {
 			Router.go('/');
 		}
+		*/
+		Meteor.call('updateTest');
 	}
 });
 
