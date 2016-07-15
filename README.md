@@ -40,6 +40,7 @@ We are a team of 3 based in Tokyo.
 [MIT License](https://opensource.org/licenses/MIT) <br>
 Copyright (c) 2016 Gautham Elango
 
+```
                                                 _______
                                           .,add88YYYYY88ba,
                                      .,adPP""'         `"Yba___,aaadYPPba,
@@ -96,5 +97,6 @@ Copyright (c) 2016 Gautham Elango
           d88baaaad88ba,        `8,
              `"""'   `Y8ba,     ,dI
                         `""Y8baadP'
+```
 
-[so long and thanks for all the fish](http://www.asciiworld.com/-Dolphins-.html)
+so long and thanks for all the fish
