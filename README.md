@@ -50,7 +50,7 @@ Navigate to [http://localhost:3000/](http://localhost:3000/)
 
 ## About
 
-We are 3 camels based in Tokyo, trying to get into a tent.
+We are 3 camels based in Tokyo trying to get into a tent.
 
 ## License
 
