@@ -2,13 +2,13 @@
   <div class="formTemplate">
     <center><h2 class="monospace">Update Clinic: {{name}}</h2>
   <div class="alignForm monospace">
-    <form class="update">
+    <form class="update submitBtn side">
           {{#if currentUser}}
           <p>Clinic Name: 
           <input type="text" name="name" id="updateName" value="{{name}}"></p><br>
           <p>Clinic Website: 
           <input type="text" name="statuspage" id="updateStatuspage" value="{{statuspage}}"></p><br>
-          <input type="submit" value="Submit">
+          <button class="side" onclick="Router.go('/clinic/{{_id}}');">Cancel</button><input class="side submitBtn" type="submit" value="Submit">
           {{else}}
           <p>Please login first</p>
           {{/if}}
