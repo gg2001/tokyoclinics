@@ -26,7 +26,7 @@ Clinics is an open-source project on a mission to revolutionize healthcare and p
 * Node.js (back-end)
 * Blaze templating engine (front-end)
 * jQuery, Twitter Bootstrap & Babeljs ES6 (front-end)
-* MongoDB (database)
+* MongoDB & miniMongo (database)
 * Apache Cordova (mobile - iOS & Android)
 
 ## Quick Start
