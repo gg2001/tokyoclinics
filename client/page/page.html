@@ -4,9 +4,9 @@
 		<center><div class="monospace">
 			<a href="{{statuspage}}" target="_blank" onclick="window.open('{{statuspage}}', '_system');" class="website" id="cordovaSite">Website</a>
   		</div><br><hr /><br>
-  		<form>
+  		<button class="side" onclick="Router.go('/edit/{{_id}}');">Edit</button><form class="side">
     		{{#if currentUser}}
-			<button class="editButton"><a href="../edit/{{_id}}">Edit</a></button><input type="submit" value="Remove">
+			<input type="submit" class="submitBtn" value="Remove">
 			{{/if}}
 		</form></center>
 	</div>

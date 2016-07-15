@@ -1,6 +1,6 @@
 <template name="form">
   <div class="formTemplate">
-  <center><h2 class="monospace">Add a new clinic</h2>
+    <center><h2 class="monospace">Add a new clinic</h2>
   <div class="alignForm monospace">
     <form>
           {{#if currentUser}}
@@ -8,10 +8,6 @@
           <input type="text" name="name"></p><br>
           <p>Clinic Website: 
           <input type="text" name="statuspage"></p><br>
-          <p>Latitude: 
-          <input type="text" name="latitude"></p><br>
-          <p>Longitude: 
-          <input type="text" name="longitude"></p><br>
           <input type="submit" value="Submit">
           {{else}}
           <p>Please login first</p>

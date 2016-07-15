@@ -1,12 +1,10 @@
 Meteor.methods({
-'clinicForm': function(clinicNameVar, clinicStatuspageVar, latitudeVar, longitudeVar){
-    Clinics.insert({
-    	name: clinicNameVar,
-        statuspage: clinicStatuspageVar,
-        latitude: latitudeVar,
-        longitude: longitudeVar
-    });
-}
+    'clinicForm': function(clinicNameVar, clinicStatuspageVar){
+        Clinics.insert({
+        	name: clinicNameVar,
+            statuspage: clinicStatuspageVar,
+        });
+    }
 });
 
 Meteor.methods({
@@ -16,19 +14,10 @@ Meteor.methods({
 });
 
 Meteor.methods({
-	'testMarkers': function(latitude, longitude){
-		Markers.insert({
-			lat: latitude,
-			lgn: longitude
-		})
-	}
-});
-
-Meteor.methods({
-    'updateTest': function(){
-            Clinics.update({_id:"NXddnvM6uqYE2gAeT"},
-                   {$set: {name:"Test3"}},
-                   {multi: true}
-    );
+    'clinicUpdate': function(idVar, nameVar, statuspageVar){
+        Clinics.update({_id:idVar},
+           {$set: {name:nameVar, statuspage:statuspageVar}},
+           {multi: true}
+        );
     }
-})
+});

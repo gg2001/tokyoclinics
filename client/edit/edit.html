@@ -1,13 +1,18 @@
 <template name="edit">
-	<div class="pageTemplate">
-  	<center><h1 class="monospace title" id="theClinic">{{name}}</h1></center><br><hr /><br>
-		<center><div class="monospace">
-			<a href="{{statuspage}}" target="_blank" onclick="window.open('{{statuspage}}', '_system');" class="website" id="cordovaSite">Website</a>
-  		</div><br><hr /><br>
-  		<form>
-    		{{#if currentUser}}
-			<input type="submit" value="Remove">
-			{{/if}}
-		</form></center>
-	</div>
+  <div class="formTemplate">
+    <center><h2 class="monospace">Update Clinic: {{name}}</h2>
+  <div class="alignForm monospace">
+    <form class="update">
+          {{#if currentUser}}
+          <p>Clinic Name: 
+          <input type="text" name="name" id="updateName" value="{{name}}"></p><br>
+          <p>Clinic Website: 
+          <input type="text" name="statuspage" id="updateStatuspage" value="{{statuspage}}"></p><br>
+          <input type="submit" value="Submit">
+          {{else}}
+          <p>Please login first</p>
+          {{/if}}
+    </form>
+  </div></center>
+  </div>
 </template>

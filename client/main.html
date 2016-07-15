@@ -22,14 +22,11 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li id="backButton"></li>
-          
           {{#if currentUser}}
           <li id="cordovaMapin"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
           <li id="cordovaClinic"><a href="../form" class="mainLinks"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
           {{else}}
           <li id="cordovaMapout"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
-          <!--<a href="../register"><span class="glyphicon glyphicon-user"></span> Register</a>-->
-          <!--<a href="../login"><span class="glyphicon glyphicon-log-in"></span> Login</a>-->
           {{/if}}
         </ul>
         <ul class="nav navbar-nav navbar-right">

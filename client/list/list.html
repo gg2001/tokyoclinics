@@ -1,10 +1,9 @@
 <template name="list">
 	<div class="listTemplate Content">
-  	<center>
-  		<div class="list-items monospace list">
-	    {{#each clinic}}
-	    <div class="cell container"><a class="listLink" href="/clinic/{{_id}}"><div class="theLink">{{name}}<br><hr /></div></a><div class="star"><a href="#" class="glyphicon glyphicon-star" id="starFavorite"></a></div></div>
-	    {{/each}} 
- 	</div></center>
+  		<center><div class="list-items monospace list">
+		    {{#each clinic}}
+		    <div class="cell container"><a class="listLink" href="/clinic/{{_id}}"><div class="theLink">{{name}}<br><hr /></div></a><div class="star"><a href="#" class="glyphicon glyphicon-star" id="starFavorite"></a></div></div>
+		    {{/each}} 
+ 		</div></center>
 	</div>
 </template>
