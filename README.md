@@ -25,7 +25,7 @@ Clinics is an open-source project on a mission to revolutionize healthcare and p
 * Proud user of [Meteor js](https://github.com/meteor/meteor)
 * Node.js (back-end)
 * Blaze templating engine (front-end)
-* jQuery (front-end)
+* jQuery & Babeljs ES6 (front-end)
 * MongoDB (database)
 * Apache Cordova (mobile - iOS & Android)
 
