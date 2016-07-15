@@ -3,6 +3,22 @@
 Clinics is an open-source project on a mission to revolutionize healthcare and pharmaceuticals. <br>
 [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
 
+```                                                                        
+  ,----..    ,--,                                                        
+ /   /   \ ,--.'|     ,--,                 ,--,                          
+|   :     :|  | :   ,--.'|         ,---, ,--.'|                          
+.   |  ;. /:  : '   |  |,      ,-+-. /  ||  |,                .--.--.    
+.   ; /--` |  ' |   `--'_     ,--.'|'   |`--'_       ,---.   /  /    '   
+;   | ;    '  | |   ,' ,'|   |   |  ,"' |,' ,'|     /     \ |  :  /`./   
+|   : |    |  | :   '  | |   |   | /  | |'  | |    /    / ' |  :  ;_     
+.   | '___ '  : |__ |  | :   |   | |  | ||  | :   .    ' /   \  \    `.  
+'   ; : .'||  | '.'|'  : |__ |   | |  |/ '  : |__ '   ; :__   `----.   \ 
+'   | '/  :;  :    ;|  | '.'||   | |--'  |  | '.'|'   | '.'| /  /`--'  / 
+|   :    / |  ,   / ;  :    ;|   |/      ;  :    ;|   :    :'--'.     /  
+ \   \ .'   ---`-'  |  ,   / '---'       |  ,   /  \   \  /   `--'---'   
+  `---`              ---`-'               ---`-'    `----'           
+```
+
 ## Stack
 
 * Proud user of [Meteor](https://github.com/meteor/meteor)
