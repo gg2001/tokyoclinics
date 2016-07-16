@@ -1,5 +1,13 @@
 # Clinics History
 
+## v0.3.0
+July 15th Friday, 2016
+Tokyo, Japan
+
+* Editing function
+* Safer deleting function
+
+
 ```                                                                   
   ,---,                           ___                               
 ,--.' |      ,--,               ,--.'|_                             
@@ -17,4 +25,20 @@
                                                               `--`  
 ```
 
-## v0.1
+## v0.2.0
+July 12th Tuesday, 2016
+Tokyo, Japan
+
+* Form
+* Deleting function
+* Non-functional favorites button
+* A dummy map created via the Google Maps api
+
+## v0.1.0
+July 8th Friday, 2016
+Tokyo, Japan
+
+* OAuth login with email, Google, Twitter, & Facebook with their respective api's
+* Iron:Router functionality with proper routing
+* Main html file, with many other sub files
+* Bootstrap header
