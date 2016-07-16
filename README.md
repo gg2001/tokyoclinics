@@ -28,7 +28,7 @@ Version: 0.3.0
 
 See how to run the app locally for web [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#run-the-app). To run it on iOS click [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#for-web-and-ios). See how to deploy it to Heroku [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#deploy-to-heroku).
 
-## About
+## About us
 
 We are 3 camels based in Tokyo trying to get into a tent.
 
