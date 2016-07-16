@@ -21,7 +21,7 @@ Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https:
 * Meteor 1.3.4.4
 * Blaze & Handlebars.js (client)
 * jQuery, OAuth2, minimongo, Twitter Bootstrap 3.3.6 & Babeljs ES2015 (client)
-* Apache Cordova 6.0.0 (iOS 4.1.0 & Android 5.1.1)
+* Apache Cordova 6.0.0 (client - iOS 4.1.0 & Android 5.1.1)
 * Node.js 0.10.46 (server)
 * MongoDB 3.2 (database)
 
