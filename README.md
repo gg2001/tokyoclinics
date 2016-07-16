@@ -2,7 +2,7 @@
 ![Heroku](https://heroku-badge.herokuapp.com/?app=ggstatusapp)
 
 Clinics is an open-source project on a mission to revolutionize healthcare and pharmaceuticals. <br>
-Version: 0.3.0 -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
+Version: 1.0.0 -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
 
 ```                                                                  
       _ _       _          
@@ -39,7 +39,7 @@ We encourage contributions.
 
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
-This project is currently at version 0.3.0. Published July 15th Friday 2016 in Tokyo, Japan. <br>
+This project is currently at version 1.0.0. Published July 16th Saturday 2016 in Tokyo, Japan. <br>
 This is what changed:
 
 * Editing function

@@ -1,6 +1,6 @@
 # Clinics Roadmap
 
-## 0.4.0
+## 1.1.0
 
 * Favorites
 * A more functional map

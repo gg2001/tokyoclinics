@@ -1,11 +1,10 @@
 # Clinics History
 
-## v0.3.0
-July 15th Friday, 2016
+## v1.0.0
+July 16th Saturday, 2016
 Tokyo, Japan
 
-* Editing function
-* Safer deleting function
+* Bug fixes
 
 
 ```                                                                   
@@ -24,6 +23,13 @@ Tokyo, Japan
             ---`-'                                           \  ' ; 
                                                               `--`  
 ```
+
+## v0.3.0
+July 15th Friday, 2016
+Tokyo, Japan
+
+* Editing function
+* Safer deleting function
 
 ## v0.2.0
 July 12th Tuesday, 2016
