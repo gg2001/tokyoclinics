@@ -1,5 +1,7 @@
 # Clinics Contributing
 
+## We encourage contributions. Here are some ways you can do it:
+
 ```
  _______ _______ _      _______________________________         __________________       _______ 
 (  ____ (  ___  | (    /\__   __(  ____ )__   __(  ___ \|\     /\__   __|__   __( (    /(  ____ \
@@ -12,11 +14,9 @@
                                                                                                  
 ```
 
-## We encourage contributions. Here are some ways you can do it:
-
 ```bash
-git clone https://github.com/gg2001/Status.git
-cd Status
+git clone https://github.com/gg2001/Clinics.git
+cd Clinics
 ```
-* Clone the app and either [run](https://github.com/gg2001/Status/blob/master/RUN.md) it or scan through the code for any problems. If you find any report as an issue [here](https://github.com/gg2001/Status/issues)
-* If you want to make any changes yourself, submit a pull request [here](https://github.com/gg2001/Status/pulls)
+* Clone the app and either [run](https://github.com/gg2001/Clinics/blob/master/RUN.md) it or scan through the code for any problems. If you find any report as an issue [here](https://github.com/gg2001/Clinics/issues)
+* If you want to make any changes yourself, submit a pull request [here](https://github.com/gg2001/Clinics/pulls)
