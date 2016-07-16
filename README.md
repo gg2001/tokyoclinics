@@ -24,24 +24,9 @@ Version: 0.3.0
 * Node.js 0.10.46 (server)
 * MongoDB 3.2 (database)
 
-## Quick Start
+## [Run the app](https://github.com/gg2001/Status/blob/master/RUN.md)
 
-```bash
-git clone https://github.com/gg2001/Status.git
-```
-
-```bash
-cd Status
-```
-
-```bash
-meteor npm install
-```
-
-```bash
-meteor
-```
-Navigate to [http://localhost:3000/](http://localhost:3000/)
+See how to run the app locally for web [here](). To run it on iOS click [here](). See how to deploy it to Heroku [here]().
 
 ## About
 

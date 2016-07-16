@@ -14,5 +14,9 @@
 
 ## We encourage contributions. Here are some ways you can do it:
 
-* Clone the app and either run it or scan through the code for any problems. If you find any report as an issue [here](https://github.com/gg2001/Status/issues)
+```bash
+git clone https://github.com/gg2001/Status.git
+cd Status
+```
+* Clone the app and either [run](https://github.com/gg2001/Status/blob/master/RUN.md) it or scan through the code for any problems. If you find any report as an issue [here](https://github.com/gg2001/Status/issues)
 * If you want to make any changes yourself, submit a pull request [here](https://github.com/gg2001/Status/pulls)
