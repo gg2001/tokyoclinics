@@ -70,8 +70,10 @@ And hit enter. Replace yoursite.com with the site on which this app is deployed.
 
 # Deploy to Heroku 
 
-To deploy to Heroku, follow [these steps](https://medium.com/@gautham.gg/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a#.jzq5dzjv6), and between step 7 and 8 enter the follwing:
+To deploy to Heroku, follow [these steps](https://medium.com/@gautham.gg/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a#.jzq5dzjv6), and between step 7 and 8 enter the following:
 
 ```bash
 heroku config:add METEOR_SETTINGS="$(cat settings.json)"
 ```
+
+You can use the ROOT_URL from this for running in Xcode.
