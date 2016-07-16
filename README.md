@@ -2,9 +2,7 @@
 ![Heroku](https://heroku-badge.herokuapp.com/?app=ggstatusapp)
 
 Clinics is an open-source project on a mission to revolutionize healthcare and pharmaceuticals. <br>
-[https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
-
-Version: 0.3.0
+Version: 0.3.0 -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
 
 ```                                                                  
       _ _       _          
