@@ -38,7 +38,8 @@ We encourage contributions.
 
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
-This project is currently at version 0.3.0, where we added:
+This project is currently at version 0.3.0. Published July 15th Friday 2016 in Tokyo, Japan. <br>
+This is what changed:
 
 * Editing function
 * Safer deleting function
