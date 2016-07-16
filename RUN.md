@@ -2,7 +2,7 @@
 
 Prerequisites: [Meteor](https://www.meteor.com/install) and [Node.js](https://nodejs.org/en/download/) must be installed
 
-1. Open a new command line window, and copy and paste this block into it, and hit enter:
+1- Open a new command line window, and copy and paste this block into it, and hit enter:
 
 ```bash
 git clone https://github.com/gg2001/Status.git
@@ -13,7 +13,7 @@ touch settings.json
 
 Do not closed this window.
 
-2. Get a Google Maps api [here](https://console.developers.google.com).
+2- Get a Google Maps api [here](https://console.developers.google.com).
 
 You can do this by creating a new project and giving it a name. Then create a Google Maps JavaScript api [here](https://console.developers.google.com). In order to use this you must press the Go to Credentials button. Make sure to enter in the following information
 
@@ -25,7 +25,7 @@ IMG:
 
 Then note down the api key somewhere, and hit Done. 
 
-3. Now open the settings.json file that was created in step 1. Copy and paste the following into it:
+3- Now open the settings.json file that was created in step 1. Copy and paste the following into it:
 
 ```json
 {
@@ -39,7 +39,7 @@ Replace the Your api key text with the api key you got in step 2, and save the f
 
 ## For Web
 
-4. Now run the app locally for web by pasting in the following into the command line window we opened in step 1:
+4- Now run the app locally for web by pasting in the following into the command line window we opened in step 1:
 
 ```bash
 meteor run --settings settings.json
@@ -49,7 +49,7 @@ And hit enter. Once it finishes starting up, navigate to [http://localhost:3000/
 
 ## For Web and iOS
 
-4. Now run the app locally for web and iOS by pasting in the following into the command line window we opened in step 1:
+4- Now run the app locally for web and iOS by pasting in the following into the command line window we opened in step 1:
 
 ```bash
 meteor install-sdk ios
@@ -59,7 +59,7 @@ meteor run ios --settings settings.json
 
 And hit enter. Remember, this can only by done on a Mac. Once it finishes starting up, navigate to [http://localhost:3000/](http://localhost:3000/) to see the web version. The iOS version should automatically open in a simulator.
 
-5. If you want to run this app in Xcode so you can ship it to the app store, type in the following:
+5- If you want to run this app in Xcode so you can ship it to the app store, type in the following:
 (if the app from step 4 is running press control+c)
 
 ```bash

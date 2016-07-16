@@ -26,7 +26,7 @@ Version: 0.3.0
 
 ## [Run the app](https://github.com/gg2001/Status/blob/master/RUN.md)
 
-See how to run the app locally for web [here](). To run it on iOS click [here](). See how to deploy it to Heroku [here]().
+See how to run the app locally for web [here](https://github.com/gg2001/Status/blob/master/RUN.md#run-the-app). To run it on iOS click [here](https://github.com/gg2001/Status/blob/master/RUN.md#for-web-and-ios). See how to deploy it to Heroku [here](https://github.com/gg2001/Status/blob/master/RUN.md#deploy-to-heroku).
 
 ## About
 
