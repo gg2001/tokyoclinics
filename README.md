@@ -24,26 +24,26 @@ Version: 0.3.0
 * Node.js 0.10.46 (server)
 * MongoDB 3.2 (database)
 
-## [Run the app](https://github.com/gg2001/Status/blob/master/RUN.md)
+## [Run the app](https://github.com/gg2001/Clinics/blob/master/RUN.md)
 
-See how to run the app locally for web [here](https://github.com/gg2001/Status/blob/master/RUN.md#run-the-app). To run it on iOS click [here](https://github.com/gg2001/Status/blob/master/RUN.md#for-web-and-ios). See how to deploy it to Heroku [here](https://github.com/gg2001/Status/blob/master/RUN.md#deploy-to-heroku).
+See how to run the app locally for web [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#run-the-app). To run it on iOS click [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#for-web-and-ios). See how to deploy it to Heroku [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#deploy-to-heroku).
 
 ## About
 
 We are 3 camels based in Tokyo trying to get into a tent.
 
-## [Contributing](https://github.com/gg2001/Status/blob/master/CONTRIBUTING.md)
+## [Contributing](https://github.com/gg2001/Clinics/blob/master/CONTRIBUTING.md)
 
 We encourage contributions.
 
-## [History](https://github.com/gg2001/Status/blob/master/HISTORY.md)
+## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
 This project is currently at version 0.3.0, where we added:
 
 * Editing function
 * Safer deleting function
 
-## [Roadmap](https://github.com/gg2001/Status/blob/master/ROADMAP.md)
+## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
 
 We are adding the following to version 0.4.0:
 
@@ -51,7 +51,7 @@ We are adding the following to version 0.4.0:
 * A more functional map
 * Decent iOS & Android app
 
-## [License](https://github.com/gg2001/Status/blob/master/LICENSE.txt)
+## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
 
 [MIT License](https://opensource.org/licenses/MIT) <br>
 Copyright (c) 2016 [Gautham Elango](https://github.com/gg2001)

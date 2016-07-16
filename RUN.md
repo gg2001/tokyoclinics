@@ -5,8 +5,8 @@ Prerequisites: [Meteor](https://www.meteor.com/install) and [Node.js](https://no
 1- Open a new command line window, and copy and paste this block into it, and hit enter:
 
 ```bash
-git clone https://github.com/gg2001/Status.git
-cd Status
+git clone https://github.com/gg2001/Clinics.git
+cd Clinics
 meteor npm install
 touch settings.json
 ```
