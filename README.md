@@ -14,7 +14,7 @@ Version: 0.3.0 -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.heroku
 ```
 
 We have begun operations in Tokyo. <br>
-Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https://www.crunchbase.com/organization/clinics) pages to invest, see whether we're recruiting, and look at our growth.
+Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https://www.crunchbase.com/organization/clinics) pages to invest, view recruitment offers, and look at our growth.
 
 ## Stack
 
