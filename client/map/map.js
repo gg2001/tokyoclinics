@@ -15,7 +15,7 @@ import '../../imports/ui/style.css';
 
 Template.map.onRendered(function() {
   GoogleMaps.load({
-    key: "AIzaSyBWkWU-HMefXevQiEXuzpqG2BcOg3xM0vc"
+    key: Meteor.settings.public.googleApiKey
   });
   document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
 
