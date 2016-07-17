@@ -69,4 +69,8 @@
 ### Rules
 * The contents of the .gitignore must be untouched. No deletions will be allowed, however new files/folders can be added to the file if absolutely necessary
 
-### Following the structure
+## Following the structure
+
+### Client
+* All client-only code must go in the client folder
+* Inside the client folder, a new folder must be made for a new template. 
