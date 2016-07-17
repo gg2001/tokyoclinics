@@ -20,3 +20,5 @@ cd Clinics
 ```
 * Clone the app and either [run](https://github.com/gg2001/Clinics/blob/master/RUN.md) it or scan through the code for any problems. If you find any report as an issue [here](https://github.com/gg2001/Clinics/issues)
 * If you want to make any changes yourself, submit a pull request [here](https://github.com/gg2001/Clinics/pulls)
+
+Click [here](https://github.com/gg2001/Clinics/blob/master/INFO.md) to view the application structure, and the rules involved with contributing.
