@@ -10,4 +10,4 @@ checkout:
     - git submodule update --init
 test:
   override:
-    - meteor
+    - JASMINE_SINGLE_RUN=1 JASMINE_BROWSER=PhantomJS meteor --test
