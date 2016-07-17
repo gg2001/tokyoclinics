@@ -1,6 +1,10 @@
 machine:
   node:
     version: 0.10.43
+general:
+  branches:
+    only:
+      - master
 dependencies:
   override:
     - curl https://install.meteor.com | /bin/sh
