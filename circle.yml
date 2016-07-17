@@ -5,10 +5,9 @@ dependencies:
   override:
     - curl https://install.meteor.com | /bin/sh
     - npm install
-    - npm install -g gagarin
 checkout:
   post:
     - git submodule update --init
 test:
   override:
-    - gagarin -v
+    - meteor test --once --driver-package dispatch:mocha-phantomjs

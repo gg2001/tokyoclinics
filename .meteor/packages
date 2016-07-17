@@ -31,3 +31,5 @@ mdg:reload-on-resume
 autopublish
 dburles:google-maps
 email
+practicalmeteor:mocha
+dispatch:mocha-phantomjs
