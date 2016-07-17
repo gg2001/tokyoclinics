@@ -1,8 +1,9 @@
 {
-  "name": "Status",
+  "name": "Clinics",
   "private": true,
   "scripts": {
-    "start": "meteor run --settings settings.json"
+    "start": "meteor run --settings settings.json",
+    "test": "meteor test --once --driver-package dispatch:mocha-phantomjs"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
