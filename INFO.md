@@ -18,6 +18,8 @@
 ├── settings.json
 ├── .meteor
 |   └── ...
+├── node_modules
+|   └── ...
 ├── api
 |   └── methods.js
 ├── imports
@@ -63,3 +65,8 @@
 |	└── main.js
 └── mobile-config.js
 ```
+
+### Rules
+* The contents of the .gitignore must be untouched. No deletions will be allowed, however new files/folders can be added to the file if absolutely necessary
+
+### Following the structure

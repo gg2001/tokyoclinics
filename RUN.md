@@ -45,7 +45,7 @@ Replace the Your api key text with the api key you got in step 2, and save the f
 meteor run --settings settings.json
 ```
 
-And hit enter. Once it finishes starting up, navigate to [http://localhost:3000/](http://localhost:3000/).
+And hit enter. Once it finishes starting up, navigate to [http://localhost:3000/](http://localhost:3000/). If you need to run the app again later, just use this command.
 
 ## For Web and iOS
 
