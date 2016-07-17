@@ -5,9 +5,10 @@ dependencies:
   override:
     - curl https://install.meteor.com | /bin/sh
     - npm install
+    - npm install -g gagarin
 checkout:
   post:
     - git submodule update --init
 test:
   override:
-    - meteor
+    - JASMINE_SINGLE_RUN=1 JASMINE_BROWSER=PhantomJS meteor --test
