@@ -45,6 +45,10 @@ This is what changed:
 * Editing function
 * Safer deleting function
 
+## [Info](https://github.com/gg2001/Clinics/blob/master/INFO.md)
+
+Click [here](https://github.com/gg2001/Clinics/blob/master/INFO.md) to view the application structure, and the rules involved with contributing.
+
 ## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
 
 We are adding the following to version 0.4.0:
