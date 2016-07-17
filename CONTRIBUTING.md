@@ -22,3 +22,5 @@ cd Clinics
 * If you want to make any changes yourself, submit a pull request [here](https://github.com/gg2001/Clinics/pulls)
 
 Click [here](https://github.com/gg2001/Clinics/blob/master/INFO.md) to view the application structure, and the rules involved with contributing.
+
+If you wish to add features you can see our [roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md) for inspiration.

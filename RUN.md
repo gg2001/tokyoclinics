@@ -11,7 +11,7 @@ meteor npm install
 touch settings.json
 ```
 
-Do not closed this window.
+Do not close this window.
 
 2- Get a Google Maps api [here](https://console.developers.google.com).
 

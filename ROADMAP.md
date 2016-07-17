@@ -24,4 +24,6 @@
 
 ## Whats next?
 
-* Translation button (English <-> Japanese)                                                                                                                                                        
+* Translation button (English <-> Japanese)
+* Docker integration
+                                                                                                                                                    
