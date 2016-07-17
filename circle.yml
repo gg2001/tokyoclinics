@@ -11,3 +11,8 @@ checkout:
 test:
   override:
     - meteor test --once --driver-package dispatch:mocha-phantomjs
+deployment:
+  staging:
+    branch: master
+    heroku: 
+      appname: ggstatusapp
