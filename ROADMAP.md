@@ -24,4 +24,4 @@
 
 ## Whats next?
 
-*                                                                                                                                                           
+* Translation button (English <-> Japanese)                                                                                                                                                        
