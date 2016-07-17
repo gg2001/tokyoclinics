@@ -1,5 +1,6 @@
-# Clinics
-[![Build Status](https://travis-ci.org/gg2001/Clinics.svg?branch=master)](https://travis-ci.org/gg2001/Clinics) ![Heroku](https://heroku-badge.herokuapp.com/?app=ggstatusapp) 
+# [Clinics](https://gg2001.github.io/Clinics) 
+
+[![Build Status](https://travis-ci.org/gg2001/Clinics.svg?branch=master)](https://travis-ci.org/gg2001/Clinics) ![Heroku](https://img.shields.io/badge/heroku-deployed-brightgreen.svg) 
 
 Clinics is an open-source project on a mission to revolutionize healthcare and pharmaceuticals. <br>
 Version: 1.0.0 -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
