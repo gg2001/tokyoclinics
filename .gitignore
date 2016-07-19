@@ -1,3 +1,4 @@
 node_modules/
-.deploy/
+.do/
+.aws/
 settings.json

@@ -22,7 +22,6 @@ accounts-password
 accounts-ui
 iron:router
 twbs:bootstrap
-force-ssl
 meteorhacks:fast-render
 fastclick
 mobile-status-bar
