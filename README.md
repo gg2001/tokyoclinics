@@ -1,6 +1,4 @@
-# [Clinics](https://gg2001.github.io/Clinics) 
-
-[![Build Status](https://travis-ci.org/gg2001/Clinics.svg?branch=master)](https://travis-ci.org/gg2001/Clinics) [![CircleCI](https://circleci.com/gh/gg2001/Clinics.svg?style=shield&circle-token)](https://circleci.com/gh/gg2001/Clinics)
+# [Clinics](https://gg2001.github.io/Clinics) [![Build Status](https://travis-ci.org/gg2001/Clinics.svg?branch=master)](https://travis-ci.org/gg2001/Clinics) [![CircleCI](https://circleci.com/gh/gg2001/Clinics.svg?style=shield&circle-token)](https://circleci.com/gh/gg2001/Clinics)
 
 Clinics is an open-source project on a mission to revolutionize healthcare and pharmaceuticals. <br>
 Version: [1.0.0](https://github.com/gg2001/Clinics/releases/tag/1.0.0) - [Branch](https://github.com/gg2001/Clinics/tree/v1) -> [https://ggstatusapp.herokuapp.com](https://ggstatusapp.herokuapp.com)
@@ -28,15 +26,7 @@ Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https:
 
 ## [Run the app](https://github.com/gg2001/Clinics/blob/master/RUN.md)
 
-See how to run the app locally for web [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#run-the-app). To run it on iOS click [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#for-web-and-ios). See how to deploy it to Heroku [here](https://github.com/gg2001/Clinics/blob/master/RUN.md#deploy-to-heroku).
-
-## About us
-
-We are 3 camels based in Tokyo trying to get into a tent.
-
 ## [Contributing](https://github.com/gg2001/Clinics/blob/master/CONTRIBUTING.md)
-
-We encourage contributions.
 
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
@@ -46,17 +36,15 @@ This is what changed:
 * Editing function
 * Safer deleting function
 
-## [Info](https://github.com/gg2001/Clinics/blob/master/INFO.md)
-
-Click [here](https://github.com/gg2001/Clinics/blob/master/INFO.md) to view the application structure, and the rules involved with contributing.
-
 ## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
 
-We are adding the following to version 0.4.0:
+We are adding the following to version 1.4.0:
 
 * Favorites
 * A more functional map
 * Decent iOS & Android app
+
+## [Info](https://github.com/gg2001/Clinics/blob/master/INFO.md)
 
 ## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
 
