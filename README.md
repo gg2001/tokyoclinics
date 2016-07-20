@@ -28,6 +28,8 @@ Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https:
 
 ## [Contributing](https://github.com/gg2001/Clinics/blob/master/CONTRIBUTING.md)
 
+## [Info](https://github.com/gg2001/Clinics/blob/master/INFO.md)
+
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
 This project is currently at version 1.0.0. Published July 16th Saturday 2016 in Tokyo, Japan. <br>
@@ -43,8 +45,6 @@ We are adding the following to version 1.4.0:
 * Favorites
 * A more functional map
 * Decent iOS & Android app
-
-## [Info](https://github.com/gg2001/Clinics/blob/master/INFO.md)
 
 ## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
 
