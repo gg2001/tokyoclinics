@@ -68,6 +68,7 @@ meteor@1.1.16
 meteor-base@1.0.4
 meteorhacks:fast-render@2.14.0
 meteorhacks:inject-data@2.0.0
+meteorhacks:kadira@2.30.0
 meteorhacks:meteorx@1.4.1
 meteorhacks:picker@1.0.3
 minifier-css@1.1.13
@@ -79,6 +80,7 @@ modules@0.6.5
 modules-runtime@0.6.5
 mongo@1.1.9_1
 mongo-id@1.0.5
+mongo-livedata@1.0.12
 npm-bcrypt@0.8.6_3
 npm-mongo@1.4.45
 oauth@1.1.11
