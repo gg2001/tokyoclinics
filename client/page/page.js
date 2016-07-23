@@ -19,9 +19,7 @@ Template.page.events({
 		var mongoID = url.substring(url.length - 17);
 			var confirmation = confirm("Are you sure you want to remove this clinic?");
 			if (confirmation == true) {
-				Router.go('/');
 				Meteor.call('clinicRemove', mongoID)
-				Router.go('/');
 				var currentClinic = document.getElementById("theClinic").innerHTML;
 				if (currentClinic == "") {
 					Router.go('/');
