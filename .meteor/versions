@@ -41,6 +41,8 @@ email@1.0.16
 es5-shim@4.5.13
 facebook@1.2.8
 fastclick@1.0.12
+gadicohen:robots-txt@0.0.10
+gadicohen:sitemaps@0.0.24
 geojson-utils@1.0.9
 google@1.1.13
 hot-code-push@1.0.4
@@ -81,6 +83,7 @@ modules-runtime@0.6.5
 mongo@1.1.9_1
 mongo-id@1.0.5
 mongo-livedata@1.0.12
+nimble:restivus@0.8.11
 npm-bcrypt@0.8.6_3
 npm-mongo@1.4.45
 oauth@1.1.11
@@ -104,6 +107,7 @@ routepolicy@1.0.11
 service-configuration@1.0.10
 session@1.1.6
 sha@1.0.8
+simple:json-routes@2.1.0
 spacebars@1.0.12
 spacebars-compiler@1.0.12
 spiderable@1.0.13
