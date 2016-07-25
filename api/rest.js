@@ -15,7 +15,7 @@ const Api = new Restivus({
   prettyJson: true,
 });
 
-Api.addRoute('clinic', {
+Api.addRoute('clinics', {
 	get: {
     action: function() {
       return {
@@ -26,7 +26,7 @@ Api.addRoute('clinic', {
   },
 });
 
-Api.addRoute('clinic/:id', { 
+Api.addRoute('clinics/:id', { 
 	get: {
     action: function() {
       const bookmarkId = this.urlParams.id;
