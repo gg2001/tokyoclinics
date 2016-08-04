@@ -1,3 +1,6 @@
 node_modules/
 .aws/
 settings.json
+privkey.pem
+fullchain.pem
+bundle.crt
