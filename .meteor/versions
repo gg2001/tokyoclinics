@@ -41,6 +41,7 @@ email@1.1.16
 es5-shim@4.6.13
 facebook@1.2.8
 fastclick@1.0.12
+force-ssl@1.0.12
 gadicohen:robots-txt@0.0.10
 gadicohen:sitemaps@0.0.24
 geojson-utils@1.0.9
