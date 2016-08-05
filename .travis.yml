@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "0.12"
 before_install:
-  - "meteor || curl https://install.meteor.com | /bin/sh"
+  - "meteor || curl https://install.meteor.com | sh"
 env:
   - PATH="$PATH:$HOME/.meteor"
