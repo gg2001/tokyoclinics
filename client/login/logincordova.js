@@ -10,10 +10,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import './login.html';
+import './logincordova.html';
 import '../../imports/ui/style.css'
 
-Template.login.onRendered(function(){
+Template.logincordova.onRendered(function(){
     document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
     if (!Meteor.isCordova){
         $(".loginTemplate").empty();
@@ -21,7 +21,7 @@ Template.login.onRendered(function(){
     }
 });
 
-Template.login.events({
+Template.logincordova.events({
     'submit form': function(event){
         event.preventDefault();
         var email = $('[name=email]').val();

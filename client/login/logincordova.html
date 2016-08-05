@@ -8,19 +8,19 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 
-<template name="register" class="monospace">
-  <div class="registerTemplate">
-  <center><h2 class="monospace">Register</h2>
-  <div class="loginTemplate">
+<template name="logincordova" class="monospace">
+  <div class="listTemplate">
+  <center><h2 class="monospace">Login</h2>
+    <div class="loginTemplate">
     {{#if currentUser}}
     <p class="monospace">You are already logged in</p>
     {{else}}
-    <form class="register monospace">
+    <form class="login monospace">
       <p>Email: <input type="email" name="email"></p><br>
       <p>Password: <input type="password" name="password"></p><br>
-      <p><input type="submit" value="Register"></p>
+      <p><input type="submit" value="Login"></p>
     </form><br>
-    <p class="monospace" id="err1"></p>
+    <p id="err" class="monospace"></p>
     {{/if}}
     </div>
     <p class="monospace" id="unauthorized"></p>

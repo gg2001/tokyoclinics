@@ -1,4 +1,4 @@
-<!--
+/*
 Copyright (c) 2016 Gautham Elango
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -6,24 +6,32 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
+*/
 
-<template name="login" class="monospace">
-  <div class="listTemplate">
-  <center><h2 class="monospace">Login</h2>
-    <div class="loginTemplate">
-    {{#if currentUser}}
-    <p class="monospace">You are already logged in</p>
-    {{else}}
-    <form class="login monospace">
-      <p>Email: <input type="email" name="email"></p><br>
-      <p>Password: <input type="password" name="password"></p><br>
-      <p><input type="submit" value="Login"></p>
-    </form><br>
-    <p id="err" class="monospace"></p>
-    {{/if}}
-    </div>
-    <p class="monospace" id="unauthorized"></p>
-  </center>
-  </div>
-</template>
+import { Template } from 'meteor/templating';
+import { ReactiveVar } from 'meteor/reactive-var';
+import './registercordova.html';
+import '../../imports/ui/style.css'
+
+Template.registercordova.events({
+    'submit form': function(){
+        event.preventDefault();
+        var email = $('[name=email]').val();
+        var password = $('[name=password]').val();
+        Accounts.createUser({
+            email: email,
+            password: password
+        });
+        Router.go('/');
+        location.reload();
+
+    }
+});
+
+Template.registercordova.onRendered(function(){
+    document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
+    if (!Meteor.isCordova){
+        $(".loginTemplate").empty();
+        document.getElementById("unauthorized").innerHTML = 'You are unauthorized';
+    }
+});
