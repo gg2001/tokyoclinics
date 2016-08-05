@@ -18,7 +18,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
           <input type="text" name="name" id="updateName" value="{{name}}"></p><br>
           <p>Clinic Website: 
           <input type="text" name="statuspage" id="updateStatuspage" value="{{statuspage}}"></p><br>
-          <button class="side" onclick="Router.go('/clinic/{{_id}}');">Cancel</button><input class="side submitBtn" type="submit" value="Submit">
+          <button class="side" onclick="Router.go('/c/{{_id}}');">Cancel</button><input class="side submitBtn" type="submit" value="Submit">
           {{else}}
           <p>Please login first</p>
           {{/if}}

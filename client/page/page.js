@@ -30,7 +30,7 @@ Template.page.events({
 });
 
 Template.page.onRendered(function(){
-    document.getElementById("backButton").innerHTML = '<a href="../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
+    document.getElementById("backButton").innerHTML = '<a href="../../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
     if (document.getElementById("theClinic").innerHTML == '') {
     	Router.go('/');
     }
