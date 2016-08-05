@@ -13,6 +13,7 @@ import { ReactiveVar } from 'meteor/reactive-var';
 import './main.html';
 import '../imports/ui/style.css'
 
+/*
 Template.main.events({
 	'click .logout': function(event){
         event.preventDefault();
@@ -21,4 +22,4 @@ Template.main.events({
         location.reload();
 	}
 });
-
+*/

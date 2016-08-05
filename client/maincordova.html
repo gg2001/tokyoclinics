@@ -36,8 +36,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
           {{#if currentUser}}
           <li id="cordovaMapin"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
           <li id="cordovaClinic"><a href="../form" class="mainLinks"><span class="glyphicon glyphicon-plus"></span> Add Clinic</a></li>
+          <li id="cordovaLogout" class="theCordovaLogout"><a href="#" id="logout" class="logout mainLinks"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
           {{else}}
           <li id="cordovaMapout"><a href="../map" class="mainLinks"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li id="cordovaRegister" class="theCordovaRegister"><a href="../registercordova" class="mainLinks"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+          <li id="cordovaLogin" class="theCordovaLogin"><a href="../logincordova" class="mainLinks"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           {{/if}}
         </ul>
         <ul class="nav navbar-nav navbar-right">
