@@ -7,36 +7,18 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-if (!Meteor.isCordova) {
-    Router.configure({
-        layoutTemplate: 'main'
-    });
-}
-if (Meteor.isCordova) {
-    Router.configure({
-        layoutTemplate: 'maincordova'
-    });
-}
-if (Meteor.isCordova) {
-    Router.route('/logincordova');
-    Router.route('/registercordova');
-}
-Router.route('/form');
-Router.route('/map');
-Router.route('/c/:_id', {
-	template: 'page',
-	data: function(){
-        var currentClinic = this.params._id;
-        return Clinics.findOne({ _id: currentClinic });
-    }
+
+import { Template } from 'meteor/templating';
+import { ReactiveVar } from 'meteor/reactive-var';
+import './maincordova.html';
+import '../imports/ui/style.css'
+
+Template.maincordova.events({
+	'click .logout': function(event){
+        event.preventDefault();
+        Meteor.logout();
+        Router.go('/');
+        location.reload();
+	}
 });
-Router.route('/c/edit/:_id', {
-	template: 'edit',
-	data: function(){
-        var currentClinic = this.params._id;
-        return Clinics.findOne({ _id: currentClinic });
-    }
-});
-Router.route('/', {
-    template: 'list'
-});
+
