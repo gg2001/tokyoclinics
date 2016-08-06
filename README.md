@@ -41,15 +41,8 @@ Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https:
 
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
-This project is currently at version 1.0.0. Published August 8th Saturday 2016 in Tokyo, Japan. <br>
+This project is currently at version 2.0.0. Published August 8th Saturday 2016 in Tokyo, Japan. <br>
 This is what changed:
-
-* Editing function
-* Safer deleting function
-
-## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
-
-We are adding the following to version 2.1.0:
 
 * Improved titles
 * Bug fixes
@@ -57,6 +50,14 @@ We are adding the following to version 2.1.0:
 * Performance updates
 * Setup deployment
 * Updated to 1.4
+
+## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
+
+We are adding the following to version 2.1.0:
+
+* Favorites
+* A more functional map
+* Decent iOS & Android app
 
 ## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
 
