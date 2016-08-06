@@ -12,7 +12,7 @@ Version: [2.0.0](https://github.com/gg2001/Clinics/releases/tag/2.0.0) - [Branch
  \___|_|_|_| |_|_|\___|___/
 ```
 
-We have begun operations in Tokyo at [https://tokyoclinics.com](https://tokyoclinics.com) <br>
+We have begun operations in Tokyo -> [https://tokyoclinics.com](https://tokyoclinics.com) <br>
 Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https://www.crunchbase.com/organization/clinics) pages to invest, view recruitment offers and look at our growth.
 
 ## Stack
