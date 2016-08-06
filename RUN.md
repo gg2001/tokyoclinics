@@ -1,6 +1,6 @@
 # Run the app
 
-Prerequisites: [Meteor](https://www.meteor.com/install) and [Node.js](https://nodejs.org/en/download/) must be installed
+Prerequisites: [Meteor](https://www.meteor.com/install) 1.4.0.1, [Node.js](https://nodejs.org/en/download/) 4.4.7 and [npm](https://npmjs.com) 3.10.5 must be installed
 
 1- Open a new command line window, and copy and paste this block into it, and hit enter:
 
@@ -42,7 +42,7 @@ Replace the Your api key text with the api key you got in step 2, and save the f
 4- Now run the app locally for web by pasting in the following into the command line window we opened in step 1:
 
 ```bash
-meteor run --settings settings.json
+npm start
 ```
 
 And hit enter. Once it finishes starting up, navigate to [http://localhost:3000/](http://localhost:3000/). If you need to run the app again later, just use this command.
@@ -66,7 +66,28 @@ And hit enter. Remember, this can only by done on a Mac. Once it finishes starti
 meteor run ios-device --settings settings.json --mobile-server https://yoursite.com
 ```
 
-And hit enter. Replace yoursite.com with the site on which this app is deployed. I will be showing you how to deploy it to Heroku now.
+And hit enter. Replace yoursite.com with the site on which this app is deployed.
+
+## Troubleshooting
+
+If the application doesn't run, try resetting the project:
+
+```
+meteor reset
+```
+
+This clears the logs and the local database. If this still doesn't work try uninstalling and reinstalling meteor:
+
+```
+sudo rm /usr/local/bin/meteor
+rm -rf ~/.meteor
+```
+
+```
+curl https://install.meteor.com/ | sh
+```
+
+Also make sure that Node.js and npm are at their latest versions (4.4.7 and 3.10.5 respectively)
 
 # Deploy to Heroku 
 

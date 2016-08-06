@@ -1,10 +1,15 @@
 # Clinics History
 
-## [v1.0.0](https://github.com/gg2001/Clinics/releases/tag/1.0.0) - [Branch](https://github.com/gg2001/Clinics/tree/v1)
-July 16th Saturday, 2016
+## [v2.0.0](https://github.com/gg2001/Clinics/releases/tag/2.0.0) - [Branch](https://github.com/gg2001/Clinics/tree/v2)
+August 6th Saturday, 2016
 Tokyo, Japan
 
+* Improved titles
 * Bug fixes
+* Clean up
+* Performance updates
+* Setup deployment
+* Updated to 1.4
 
 
 ```                                                                   
@@ -23,6 +28,12 @@ Tokyo, Japan
             ---`-'                                           \  ' ; 
                                                               `--`  
 ```
+
+## [v1.0.0](https://github.com/gg2001/Clinics/releases/tag/1.0.0) - [Branch](https://github.com/gg2001/Clinics/tree/v1)
+July 16th Saturday, 2016
+Tokyo, Japan
+
+* Bug fixes
 
 ## v0.3.0
 July 15th Friday, 2016

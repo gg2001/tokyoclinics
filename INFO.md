@@ -21,7 +21,8 @@
 ├── node_modules
 |   └── ...
 ├── api
-|   └── methods.js
+|   ├── methods.js
+|	└── rest.js
 ├── imports
 |   ├── startup
 |	|	├── client
@@ -40,6 +41,8 @@
 ├── client
 |	├── main.html
 |	├── main.js
+|	├── maincordova.html
+|	├── maincordova.js
 |	├── edit
 |	|   ├── edit.html
 |	|	└── edit.js
@@ -50,8 +53,8 @@
 |	|   ├── list.html
 |	|	└── list.js
 |	├── login
-|	|   ├── login.html
-|	|	└── login.js
+|	|   ├── logincordova.html
+|	|	└── logincordova.js
 |	├── map
 |	|   ├── map.html
 |	|	└── map.js
@@ -59,11 +62,12 @@
 |	|   ├── page.html
 |	|	└── page.js
 |	└── register
-|		├── register.html
-|		└── register.js
+|		├── registercordova.html
+|		└── registercordova.js
 ├── server
 |	└── main.js
 ├── .travis.yml
+├── circle.yml
 └── mobile-config.js
 ```
 
