@@ -41,7 +41,7 @@ Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https:
 
 ## [History](https://github.com/gg2001/Clinics/blob/master/HISTORY.md)
 
-This project is currently at version 1.0.0. Published July 16th Saturday 2016 in Tokyo, Japan. <br>
+This project is currently at version 1.0.0. Published August 8th Saturday 2016 in Tokyo, Japan. <br>
 This is what changed:
 
 * Editing function
@@ -49,11 +49,14 @@ This is what changed:
 
 ## [Roadmap](https://github.com/gg2001/Clinics/blob/master/ROADMAP.md)
 
-We are adding the following to version 1.4.0:
+We are adding the following to version 2.1.0:
 
-* Favorites
-* A more functional map
-* Decent iOS & Android app
+* Improved titles
+* Bug fixes
+* Clean up
+* Performance updates
+* Setup deployment
+* Updated to 1.4
 
 ## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
 
