@@ -29,6 +29,16 @@ Template.page.events({
 
 });
 
+Template.page.onCreated(function () {
+	//alert("yo");
+	/*
+	var url = window.location.href;
+	var mongoID = url.substring(url.length - 17);
+	var rightURL = '../../c/' + mongoID;
+	Router.go(rightURL);
+	*/
+});
+
 Template.page.onRendered(function(){
     document.getElementById("backButton").innerHTML = '<a href="../../"><span class="glyphicon glyphicon-chevron-left mainLinks"></span> Home</a>';
     if (document.getElementById("theClinic").innerHTML == '') {
@@ -41,4 +51,5 @@ Template.page.onRendered(function(){
 	var mongoID = url.substring(url.length - 17);
 	var thisClinic = Clinics.findOne({_id:mongoID}).name;
 	document.title = thisClinic + ' - Tokyo Clinics'
+	//alert("yo");
 });
