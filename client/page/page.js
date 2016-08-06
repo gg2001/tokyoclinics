@@ -37,4 +37,8 @@ Template.page.onRendered(function(){
     if (!Meteor.isCordova) {
     	document.getElementById("cordovaSite").removeAttribute("onclick");
     }
+    var url = window.location.href
+	var mongoID = url.substring(url.length - 17);
+	var thisClinic = Clinics.findOne({_id:mongoID}).name;
+	document.title = thisClinic + ' - Tokyo Clinics'
 });
