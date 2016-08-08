@@ -11,7 +11,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 App.info({
   id: 'com.tokyoclinics.gautham',
   name: 'Clinics',
-  description: 'The clinics database for Tokyo',
+  description: 'Tokyo Clinics',
   author: 'Gautham Elango',
   email: 'gautham.maker@outlook.com',
   website: 'https://ggstatusapp.herokuapp.com/',
