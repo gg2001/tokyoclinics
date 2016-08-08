@@ -1,7 +1,9 @@
 language: node_js
 node_js:
-  - "0.12"
+  - "4.4.7"
 before_install:
+  - "npm install -g npm@'>=3.10.5'"
+  - "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash"
   - "meteor || curl https://install.meteor.com | sh"
 env:
   - PATH="$PATH:$HOME/.meteor"
