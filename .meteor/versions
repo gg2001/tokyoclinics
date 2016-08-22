@@ -1,8 +1,8 @@
-accounts-base@1.2.9
+accounts-base@1.2.10
 accounts-facebook@1.0.10
 accounts-google@1.0.10
 accounts-oauth@1.1.13
-accounts-password@1.2.12
+accounts-password@1.2.14
 accounts-twitter@1.1.11
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.1.12
@@ -35,7 +35,7 @@ diff-sequence@1.0.6
 dispatch:mocha-phantomjs@0.1.7
 dispatch:phantomjs-tests@0.0.5
 ecmascript@0.5.7
-ecmascript-runtime@0.3.12
+ecmascript-runtime@0.3.13
 ejson@1.0.12
 email@1.1.16
 es5-shim@4.6.13
@@ -85,7 +85,7 @@ mongo@1.1.10
 mongo-id@1.0.5
 mongo-livedata@1.0.12
 nimble:restivus@0.8.11
-npm-bcrypt@0.8.7
+npm-bcrypt@0.8.7_1
 npm-mongo@1.5.45
 oauth@1.1.11
 oauth1@1.1.10
