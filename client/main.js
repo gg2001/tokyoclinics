@@ -23,3 +23,15 @@ Template.main.events({
 	}
 });
 */
+
+Template.main.onRendered(function(){
+	document.getElementById("backButton").innerHTML = '';
+	if (Meteor.isCordova) {
+		document.getElementById("loginButtons-remove").innerHTML = '';
+		$('.mainLinks').click(function(e){
+	    	document.getElementById("mainButton").click();
+		});
+	}
+});
+
+

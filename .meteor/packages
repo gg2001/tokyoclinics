@@ -6,38 +6,39 @@
 
 meteor-base@1.0.4             # Packages every Meteor app needs to have
 mobile-experience@1.0.4       # Packages for a great mobile UX
-mongo@1.1.10                   # The database Meteor supports right now
+mongo@1.1.14                   # The database Meteor supports right now
 blaze-html-templates@1.0.4    # Compile .html files into Meteor Blaze views
-reactive-var@1.0.10            # Reactive variable for tracker
-jquery@1.11.9                  # Helpful client-side library
-tracker@1.1.0                 # Meteor's client-side reactive programming library
+reactive-var@1.0.11            # Reactive variable for tracker
+jquery@1.11.10                  # Helpful client-side library
+tracker@1.1.1                 # Meteor's client-side reactive programming library
 
-standard-minifier-css@1.1.8   # CSS minifier run for production mode
-standard-minifier-js@1.1.8    # JS minifier run for production mode
-es5-shim@4.6.13   
-ecmascript@0.5.7                 # ECMAScript 5 compatibility for older browsers.
+standard-minifier-css@1.3.2   # CSS minifier run for production mode
+standard-minifier-js@1.2.1    # JS minifier run for production mode
+es5-shim@4.6.15   
+ecmascript@0.5.9                 # ECMAScript 5 compatibility for older browsers.
 
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
-accounts-password@1.2.12
+accounts-password@1.3.1
 accounts-ui@1.1.9
 iron:router
 twbs:bootstrap
 meteorhacks:fast-render
-fastclick@1.0.12
-mobile-status-bar@1.0.12
-accounts-google@1.0.10
-accounts-twitter@1.1.11
-accounts-facebook@1.0.10
+fastclick@1.0.13
+mobile-status-bar@1.0.13
+accounts-google@1.0.11
+accounts-twitter@1.1.12
+accounts-facebook@1.0.11
 mdg:reload-on-resume
 dburles:google-maps
-email@1.1.16
+email@1.1.18
 practicalmeteor:mocha
 dispatch:mocha-phantomjs
 dfischer:prerenderio
 mdg:seo
-spiderable@1.0.13
+spiderable@1.0.14-release-testing.0
 meteorhacks:kadira
-http@1.2.8
+http@1.2.10
 gadicohen:sitemaps
 nimble:restivus
-force-ssl
+force-ssl@1.0.13
+shell-server@0.2.1

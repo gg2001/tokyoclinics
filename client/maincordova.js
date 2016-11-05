@@ -22,3 +22,12 @@ Template.maincordova.events({
 	}
 });
 
+Template.maincordova.onRendered(function(){
+	document.getElementById("backButton").innerHTML = '';
+	if (Meteor.isCordova) {
+		document.getElementById("loginButtons-remove").innerHTML = '';
+		$('.mainLinks').click(function(e){
+	    	document.getElementById("mainButton").click();
+		});
+	}
+});
