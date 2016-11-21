@@ -41,3 +41,4 @@ http@1.2.10
 gadicohen:sitemaps
 nimble:restivus
 shell-server@0.2.1
+force-ssl
