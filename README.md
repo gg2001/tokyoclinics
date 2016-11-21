@@ -15,6 +15,7 @@ Version: [2.0.0](https://github.com/gg2001/Clinics/releases/tag/2.0.0) - [Branch
 We have begun operations in Tokyo -> [https://tokyoclinics.com](https://tokyoclinics.com) <br>
 Head over to our [Angellist](https://angel.co/theclinic) and [Crunchbase](https://www.crunchbase.com/organization/clinics) pages to invest, view recruitment offers and look at our growth.
 
+
 ## Stack
 
 * Meteor 1.4.0.1
