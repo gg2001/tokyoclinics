@@ -1,12 +1,4 @@
-
-```                                                                  
-      _ _       _          
-     | (_)     (_)         
-  ___| |_ _ __  _  ___ ___ 
- / __| | | '_ \| |/ __/ __|
-| (__| | | | | | | (__\__ \
- \___|_|_|_| |_|_|\___|___/
-```
+# Inactive
 
 Open source directory to insert information about local hospitals.
 
@@ -18,8 +10,3 @@ Open source directory to insert information about local hospitals.
 * Apache Cordova 6.0.0 (iOS 4.1.0 & Android 5.1.1)
 * Node.js 4.4.7 (server)
 * MongoDB 3.2 (database)
-
-## [License](https://github.com/gg2001/Clinics/blob/master/LICENSE.txt)
-
-[MIT License](https://opensource.org/licenses/MIT) <br>
-Copyright (c) 2016 [Gautham Elango](https://github.com/gg2001)
